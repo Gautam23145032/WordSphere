@@ -162,13 +162,14 @@ function Home() {
             Logout
         </button>
         <div className="notifyMe">
-            <h5>wants to get daily notification?</h5>
+            
             <button
                 className="notifyButton"
                 onClick={subscribeToNotifications}
             >
                 Notify Me
             </button>
+            <h5>wants to get daily notification?</h5>
         </div>
         
 
