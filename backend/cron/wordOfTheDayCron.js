@@ -13,7 +13,7 @@ function getRandomWord() {
 
 }
 
-cron.schedule("0 9 * * *", async () => {
+cron.schedule("* * * * *", async () => {
 
     try {
 
