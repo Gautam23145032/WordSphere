@@ -26,7 +26,7 @@ export async function fetchWord(word) {
 
     export async function fetchTrendingWords() {
     const res = await axiosInstance.get(
-        "http://localhost:5000/api/trending"
+        `${BASE_URL}/api/trending`
     );
 
     return res.data;
